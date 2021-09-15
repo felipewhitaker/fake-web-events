@@ -17,7 +17,7 @@ def load_config() -> dict:
     Load config file. If not found, then load the template
     """
     try:
-        with open(os.path.join(sys.path[0], 'config.yml'), 'r') as f:
+        with open(os.path.join(sys.path[0], 'config_events.yml'), 'r') as f:
             return yaml.safe_load(f)
     except FileNotFoundError:
         logging.info('config.yml not found, loading default template.')

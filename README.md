@@ -115,7 +115,7 @@ and that time inside the simulation will usually run faster than real time.
 This will return a generator, so you need to iterate over it and decide what to do to each event inside the loop.
 
 ## Advanced
-If you want to customize the probabilities, you can create a file called `config.yml` in the same 
+If you want to customize the probabilities, you can create a file called `config_events.yml` in the same 
 directory where you are running the script. This file will take precedence over [config.template.yml](fake_web_events/config.template.yml).
 
 # Examples
